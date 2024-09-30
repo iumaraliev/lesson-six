@@ -1,1 +1,1 @@
-This simple website was made during front-end lessons. 
+This is just a simple website for learning purposes only. This website does not depict the real service.

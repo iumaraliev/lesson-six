@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  padding: 1rem 0;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  width: 80%;
+  justify-content: space-between;
+}
+
+.nav-menu > ul {
+  gap: 8rem;
+  font-size: 1.8rem;
+}
+
+.social {
+  gap: 2rem;
+}
+
+.nav-phone {
+  gap: 1rem;
+}
+
+.hero {
+  height: 60rem;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.8) 59%,
+      rgba(0, 0, 0, 0.65) 100%
+    ),
+    url("../assets/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png");
+  background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.hero > h1 {
+  width: 44rem;
+  font-size: 5.6rem;
+  line-height: 6.7rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero > p {
+  width: 53rem;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero > button {
+  width: 26rem;
+  height: 6rem;
+  background-color: #ae7b3c;
+  color: #fff;
+  font-size: 1.6rem;
+  border: none;
+  margin-bottom: 5rem;
+}
+
+.hero-bottom {
+  border-top: 3px solid #fff;
+  padding: 1rem 0;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 500;
+  justify-content: space-between;
+}
+
+.hero-numbers {
+    display: flex;
+    gap: 2rem;
+}
+
+.hero-numbers > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.menu {
+  width: 3.4rem;
+  height: 3.4rem;
+}
+
+#menu {
+  display: none;
+}
